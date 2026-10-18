@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "sh.greta/greta",
+  "title": "Greta",
+  "description": "AI app builder: build, deploy and grow websites and full-stack apps on Greta from your AI agent.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.greta.sh",
+  "icons": [
+    { "src": "https://www.greta.sh/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] },
+    { "src": "https://www.greta.sh/icon-256.png", "mimeType": "image/png", "sizes": ["256x256"] }
+  ],
+  "repository": { "url": "https://github.com/Questera-Marketing/greta-mcp", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.greta.sh" }]
+}
